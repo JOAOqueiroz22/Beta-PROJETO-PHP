@@ -1,0 +1,104 @@
+.container{
+    
+    display: grid;
+    grid-template-columns: 200px auto;
+    height: 130vh;
+
+   
+}
+.container div{
+    background-color: aliceblue;
+    padding: 20px;
+    position: relative;
+}
+
+#sidebar{
+    background-color: #473CB5;
+    
+}
+
+#sidebar .boxImg{
+    background-color: #473CB5;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 200px;
+    
+}
+
+#sidebar .img1{
+    transform: rotate(0);
+    height: 220px;
+    margin-bottom: -10;
+}
+
+#sidebar .img2{
+    height: 250px;
+    transform: rotate(-10deg);
+    position: absolute;
+    bottom: 130px;
+    left: 0;
+}
+
+#sidebar .img3{
+    height: 300px;
+    transform: rotate(-20deg);
+    position: absolute;
+    right: 0;
+    bottom: 220px;
+}
+
+#sidebar .img4{
+    height: 400px;
+    position: absolute;
+    left: 0;
+    bottom: 430px;
+}
+
+
+#conteudo{
+    display: grid;
+    grid-template-columns: 200px auto;
+    gap: 300px;
+    background-color: black;
+    grid-template-rows: 100px;
+
+    
+}
+
+#conteudo .coraline{
+    height: 237px;
+    width: 450px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+#conteudo .pokemon{
+    margin-left: 100px;
+    border-radius: 10px;
+
+}
+
+#conteudo .sao{
+    height: 237px;
+    width: 420px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+#conteudo .st{
+    height: 237px;
+    width: 420px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+
+.texto-hover {
+    opacity: 1;
+    transition: 1s ease-in-out;
+    
+}
+.texto-hover:hover {
+    opacity: 0.7;
+    transform: translateY(-10px);
+}
